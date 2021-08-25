@@ -8,7 +8,9 @@ reloadable=false
 [entry]
 
 Windows.64="res://addons/holoplay/bin/win64/libgdholoplay.dll"
+X11.64="res://addons/holoplay/bin/x11/libgdholoplay.so"
 
 [dependencies]
 
 Windows.64=[ "res://addons/holoplay/bin/win64/HoloPlayCore.dll" ]
+X11.64=[ "res://addons/holoplay/bin/x11/libHoloPlayCore.so" ]
